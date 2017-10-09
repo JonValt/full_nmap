@@ -15,6 +15,6 @@ To monitor your nmap job's status(es), try:
 
 I didn't want to build that into the script.  The reason I backgrounded the jobs is so you can return to haxx0ring in the same terminal window.
 
-* Comprehensive = Top 1000 ports, TCP, UDP, Service Version Info, OS Detection
+(Comprehensive = Top 1000 ports, TCP, UDP, Service Version Info, OS Detection)
 
 @jonvalt
