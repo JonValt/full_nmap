@@ -73,35 +73,35 @@ fi
 if [[ $hostOneStatus = "true" ]]
 then
 printf "Nmapping $hostOne... "
-nohup nmap --vv --top-ports 1000 -sTVU -A -oA /root/Desktop/$hostOne $hostOne &>/dev/null &
+nohup nmap --top-ports 1000 -sTVU -A -oA /root/Desktop/$hostOne $hostOne &>/dev/null &
 printf "$! \n"
 fi
 
 if [[ $hostTwoStatus = "true" ]]
 then
 printf "Nmapping $hostTwo...\n"
-nohup nmap --vv --top-ports 1000 -sTVU -A -oA /root/Desktop/$hostTwo $hostTwo &>/dev/null &
+nohup nmap --top-ports 1000 -sTVU -A -oA /root/Desktop/$hostTwo $hostTwo &>/dev/null &
 printf "$! \n"
 fi
 
 if [[ $hostThreeStatus = "true" ]]
 then
 printf "Nmapping $hostThree...\n"
-nohup nmap --vv --top-ports 1000 -sTVU -A -oA /root/Desktop/$hostThree $hostThree &>/dev/null &
+nohup nmap --top-ports 1000 -sTVU -A -oA /root/Desktop/$hostThree $hostThree &>/dev/null &
 printf "$! \n"
 fi
 
 if [[ $hostFourStatus = "true" ]]
 then
 printf "Nmapping $hostFour...\n"
-nohup nmap --vv --top-ports 1000 -sTVU -A -oA /root/Desktop/$hostFour $hostFour &>/dev/null &
+nohup nmap --top-ports 1000 -sTVU -A -oA /root/Desktop/$hostFour $hostFour &>/dev/null &
 printf "$! \n"
 fi
 
 if [[ $hostFiveStatus = "true" ]]
 then
 printf "Nmapping $hostFive...\n"
-nohup nmap --vv --top-ports 1000 -sTVU -A -oA /root/Desktop/$hostFive $hostFive &>/dev/null &
+nohup nmap --top-ports 1000 -sTVU -A -oA /root/Desktop/$hostFive $hostFive &>/dev/null &
 printf "$! \n"
 fi
 
