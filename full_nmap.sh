@@ -79,28 +79,28 @@ fi
 
 if [[ $hostTwoStatus = "true" ]]
 then
-printf "Nmapping $hostTwo...\n"
+printf "Nmapping $hostTwo... "
 nohup nmap --top-ports 1000 -sTVU -A -oA ~/Desktop/$hostTwo $hostTwo &>/dev/null &
 printf "$! \n"
 fi
 
 if [[ $hostThreeStatus = "true" ]]
 then
-printf "Nmapping $hostThree...\n"
+printf "Nmapping $hostThree... "
 nohup nmap --top-ports 1000 -sTVU -A -oA ~/Desktop/$hostThree $hostThree &>/dev/null &
 printf "$! \n"
 fi
 
 if [[ $hostFourStatus = "true" ]]
 then
-printf "Nmapping $hostFour...\n"
+printf "Nmapping $hostFour... "
 nohup nmap --top-ports 1000 -sTVU -A -oA ~/Desktop/$hostFour $hostFour &>/dev/null &
 printf "$! \n"
 fi
 
 if [[ $hostFiveStatus = "true" ]]
 then
-printf "Nmapping $hostFive...\n"
+printf "Nmapping $hostFive... "
 nohup nmap --top-ports 1000 -sTVU -A -oA ~/Desktop/$hostFive $hostFive &>/dev/null &
 printf "$! \n"
 fi
