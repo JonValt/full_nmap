@@ -1,7 +1,8 @@
 # full_nmap
 Performs a comprehensive nmap scan against up to 5 hosts supplied at command line.  Assumes you are running Kali as root.  I'm currently too lazy, er, BUSY to code an have it read a .conf file, and I don't want it to ask every time, so it's hard coded.  Change it if you want something different.
 
-Usage: ./full_nmap host1 host2 host3 host4 host5
+Usage: 
+  #./full_nmap 
 
 The script:
   1) Pings each host to see if it's up, displays result
